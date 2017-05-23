@@ -13,62 +13,52 @@
 </a>
 </p>
 
-#### iScreenSaver - A Screen Saver for Mac OSX 10.8+
+### iScreenSaver - A Screen Saver for Mac OSX 10.8+
 
-A magic screen saver, a lot of fun. You can also customized your own screen saver. iScreenSaver is based on the [WebView].
+A magic screen saver, a lot of fun. You can also customized your own screen saver.
 
 
-## Installation on Mac OSX
+### Installation on Mac OSX
 
 1. **[Download the Latest release (iScreenSaver.x.xx.saver.zip)](https://github.com/titman/iScreenSaver/releases/)**
 2. Unzip the downloaded file.
 3. Open the `iScreenSaver.saver` and install it.
 4. Open up `System Preferences > Desktop and Screen Saver > Screen Saver`
-5. Select "iScreenSaver" (It'll be at the bottom of the Screen Savers list.)
-Press `Screen Saver Options` and choose your favorite screen saver! or you can also customize your own screen saver.
+5. Select "iScreenSaver" (It'll be at the bottom of the Screen Savers list.) and press `Screen Saver Options` and choose your favorite screen saver! Or you can also customize your own screen saver.
 
-## Video instructions
+### Video instructions
 
 * [YouKu](http://www.youku.com/)
 
 
-## Features
+### Features
 
 * **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
 * **Customized You Own Screen Saver:** If you've got `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
 <p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
-## Compatibility
+### Compatibility
 
 Based on Mac OSX 10.8+
 
+### FAQ
 
-## FAQ
+> Can't insalling iScreenSaver. <img width="20" align="center" alt="Error" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/InstallError.png" />
 
-> Can't insalling iScreenSaver, I get an error message "This application could not be started"
-
-Please [install Microsoft's .Net Framework 4.6](https://support.microsoft.com/en-us/kb/2715633).
-
-
-## Community
-- **Find a bug?** [Open an issue](https://github.com/cdima/Aerial/issues/new). Try to be as specific as possible.
-- **Have a feature request** [Open an issue](https://github.com/cdima/Aerial/issues/new). Tell me why this feature would be useful, and why you and others would want it.
-
-## Contribute
-I appreciate all pull requests. Caching hasn't been added yet.
-
-## Changelog
-
-- October 27th, 2015 - 0.1: First release.
-- November 5th, 2015 - 0.2: Multi-screenoptions and scaling:
-
-<p align="center"><img align="center" alt="multiscreen aerial screensaver" src="imgs/multiscreen.gif" /></p>
-
-## License
-[MIT License](https://raw.githubusercontent.com/JohnCoates/Aerial/master/LICENSE)
+Please try open up `System Preferences > Security & Privacy > Open Anyway`.
 
 
-#### Coded with :heart: in New York by [Dmitry Sadakov](http://sadakov.com/)
+### Community
 
-<p align="center"><img align="center" alt="Dmtiry Sadakov" src="imgs/dmitrysadakov.jpg" /></p>
+- **Find a bug?** [Open an issue](https://github.com/titman/iScreenSaver/issues/new). Try to be as specific as possible.
+- **Have a feature request** [Open an issue](https://github.com/titman/iScreenSaver/issues/new). Tell me why this feature would be useful, and why you and others would want it.
+
+
+### Change log
+
+- May 23th, 2017 - 1.03: First release.
+
+
+### License
+
