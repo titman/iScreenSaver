@@ -34,7 +34,7 @@ A magic screen saver, a lot of fun. You can also customized your own screen save
 ### Features
 
 * **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
-* **Customized You Own Screen Saver:** If you've got `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
+* **Customized You Own Screen Saver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
 <p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
@@ -44,10 +44,11 @@ Based on Mac OSX 10.8+
 
 ### FAQ
 
-> Can't insalling iScreenSaver. <img width="20" align="center" alt="Error" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/InstallError.png" />
+> Can't insalling iScreenSaver? <img width="20" align="center" alt="Error" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/InstallError.png" />
 
 Please try open up `System Preferences > Security & Privacy > Open Anyway`.
-
+> Some screen saver all black?
+Please wait a few seconds to load some necessary javascript file.
 
 ### Community
 
