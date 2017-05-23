@@ -21,18 +21,10 @@ A magic screen saver, a lot of fun. You can also customize your own screen saver
 
 1. **[Download the last release (iScreenSaver.x.xx.saver.zip)](https://github.com/titman/iScreenSaver/releases/)**
 2. Unzip the downloaded file.
-3. Open and install it.
-
-if wefwefwef
-
-## Installation on Windows 10
-
-1. **[Download the Aerial .zip release](https://github.com/cDima/Aerial/releases)**
-2. Right-click and select "Extract All..." to unzip the downloaded file. Just accept the default options from the Extraction wizard.
-3. You should be presented with a folder containing **AerialScreenSaverV3.scr**  and **AerialScreenSaverV3.exe**. Copy the **AerialScreenSaverV3.scr** file to your Windows installation folder (by default this should be c:\Windows on most PCs).
-4. Type "screen saver" in the task bar search box. Select "Change screen saver" to open Screen open Screen Saver Settings.
-5. Select **AerialScreenSaverV3** from the list of screen savers.
-6. If any issues occur, please read the FAQ below or enter an issue to the tracker.
+3. Open the iScreenSaver.saver and install it.
+4. Open up System Preferences > Desktop and Screen Saver > Screen Saver
+5. Select "iScreenSaver" (It'll be at the bottom of the Screen Savers list.)
+Press "Screen Saver Options" and choose your favorite screen saver! or you can also customize your own screen saver.
 
 ## Video instructions
 
