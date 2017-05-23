@@ -11,23 +11,19 @@
 <a href="https://github.com/titman/iScreenSaver/tree/master/Releases" target="_blank">
 <img alt="Github All Releases" src="https://img.shields.io/github/downloads/titman/iScreenSaver/total.svg?style=social&maxAge=2592000" />
 </a>
-<a href="https://ci.appveyor.com/project/cDima/aerial" target="_blank">
-<img alt="Build status" src="https://ci.appveyor.com/api/projects/status/stpj3okbjpftjsad?svg=true" />
-</a>
 </p>
 
 ## iScreenSaver - A Screen Saver for Mac OSX 10.8+
 A magic screen saver, a lot of fun. You can also customize your own screen saver. iScreenSaver is based on the [WebView].
 
 
-* 
 ## Installation on Mac OSX
 
-1. **[Download the last release](https://github.com/titman/iScreenSaver/tree/master/Releases)**
-2. Right-click and select "Extract All..." to unzip the downloaded file. Just accept the default options from the Extraction wizard.
-3. You should be presented with a folder containing **AerialScreenSaverV3.scr**  and **AerialScreenSaverV3.exe**. Copy the **AerialScreenSaverV3.scr** file to your Windows installation folder (by default this should be c:\Windows on most PCs).
-4. Right click **AerialScreenSaverV3.scr** and choose Install, Windows will open Screen open Screen Saver Settings and set Aerial as the selected screensaver for you.
-5. If any issues occur, please read the FAQ below or enter an issue to the tracker.
+1. **[Download the last release (iScreenSaver.x.xx.saver.zip)](https://github.com/titman/iScreenSaver/releases/)**
+2. Unzip the downloaded file.
+3. Open and install it.
+
+if wefwefwef
 
 ## Installation on Windows 10
 
