@@ -67,7 +67,7 @@ Please wait a few seconds to load some necessary javascript file.
 > May I found some other amazing html file？
 
 Please enter [this page](https://github.com/titman/iScreenSaver/issues) to communicate together, or enter [CodePen](http://codepen.io/) search for your favorite animation.
-> What is the principle？
+> What is it principle？
 
 iScreenSaver load the html file using the deep optimization WebView, high performance and the number of frames have safeguard.
 
