@@ -68,6 +68,7 @@ Please wait a few seconds to load some necessary javascript file.
 
 Please enter [this page](https://github.com/titman/iScreenSaver/issues) to communicate together.
 > What is the principle？
+
 iScreenSaver load the html file using the deep optimization WebView, high performance and the number of frames have safeguard.
 
 ### Community
