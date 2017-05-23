@@ -32,13 +32,24 @@ A magic screen saver, a lot of fun. You can also customized your own screen save
 
 * [YouKu](http://www.youku.com/)
 
+### Picture instructions - Some of the screenshots
+
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview8.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview7.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview6.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview5.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview4.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview3.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview2.gif" /></p>
+`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview1.gif" /></p>
+
 
 ### Features
 
 * **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
 * **Customized You Own Screen Saver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
-<p align="center"><img width="320" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver2.gif" /></p><p align="center"><img width="320" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver1.gif" /></p>
+<p align="center"><img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver2.gif" /> <img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver1.gif" /></p>
 
 
 ### Compatibility
