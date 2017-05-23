@@ -36,6 +36,8 @@ A magic screen saver, a lot of fun. You can also customized your own screen save
 * **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
 * **Customized You Own Screen Saver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
+<p align="center"><img width="320" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CostomSaver1.gif" /></p>
+
 <p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
 ### Compatibility
