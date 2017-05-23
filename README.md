@@ -5,43 +5,25 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/cDima/Aerial/stargazers" target="_blank">
-<img alt="GitHub stars" src="https://img.shields.io/github/stars/cDima/Aerial.svg" />
+<a href="https://github.com/titman/iScreenSaver/stargazers" target="_blank">
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/titman/iScreenSaver.svg?style=social" />
 </a>
-<a href="https://github.com/cDima/Aerial/releases" target="_blank">
-<img alt="Github All Releases" src="https://img.shields.io/github/downloads/cdima/aerial/total.svg?maxAge=2592000" />
+<a href="https://github.com/titman/iScreenSaver/tree/master/Releases" target="_blank">
+<img alt="Github All Releases" src="https://img.shields.io/github/downloads/titman/iScreenSaver/total.svg?style=social&maxAge=2592000" />
 </a>
 <a href="https://ci.appveyor.com/project/cDima/aerial" target="_blank">
 <img alt="Build status" src="https://ci.appveyor.com/api/projects/status/stpj3okbjpftjsad?svg=true" />
 </a>
 </p>
 
-## Aerial - Apple TV Aerial Views Screen Saver for Windows 7, 8, 10+
-Aerial is a Windows screen saver based on the new Apple TV screen saver that displays the aerial movies Apple shot over New York, San Francisco, Hawaii, China, etc.
+## iScreenSaver - A Screen Saver for Mac OSX 10.8+
+A magic screen saver, a lot of fun. You can also customize your own screen saver. iScreenSaver is based on the [WebView].
 
-Aerial for Windows is based on the [Mac Aerial Screen Saver](https://github.com/JohnCoates/Aerial) by [John Coates](https://github.com/JohnCoates) .
 
-### As featured on  
+* 
+## Installation on Mac OSX
 
-* <a href="http://lifehacker.com/get-the-apple-tvs-breathtaking-aerial-screensaver-on-ma-1790533201" target="_blank">lifehacker.com</a>
-* <a href="https://www.neowin.net/news/download-aerial---apple-tv-aerial-views-screen-saver-for-windows" target="_blank">neowin.com</a>
-* <a href="http://fieldguide.gizmodo.com/get-apple-tvs-new-screensavers-on-any-windows-pc-or-mac-1741804379" target="_blank">gizmodo.com</a>
-* <a href="https://www.screensaversplanet.com/screensavers/apple-tv-aerial-views-827/" target="_blank">screensaversplanet.com</a>
-* <a href="http://www.intowindows.com/get-new-apple-tv-aerial-screen-saver-in-windows-10-8-7/" target="_blank">intowindows.com</a>
-
-<p align="center">
-<a href="http://lifehacker.com/get-the-apple-tvs-breathtaking-aerial-screensaver-on-ma-1790533201" target="_blank">
-<img align="center" alt="lifehacker aerial apple tv screensaver" src="http://advertising.gawker.com/assets/img/resources/lifehacker.png" />
-</a>
-<a href="http://fieldguide.gizmodo.com/get-apple-tvs-new-screensavers-on-any-windows-pc-or-mac-1741804379" target="_blank">
-<img align="center" alt="gizmodo aerial apple tv screensaver" src="http://advertising.gawker.com/assets/img/resources/gizmodo.png" /></a>
-<a href="https://www.neowin.net/news/download-aerial---apple-tv-aerial-views-screen-saver-for-windows" target="_blank">
-<img align="center" alt="neowin aerial apple tv screensaver" src="https://upload.wikimedia.org/wikipedia/en/1/11/Neowin_Logo_1.png" /></a>
-</p>
-
-## Installation on Windows 7, and Windows 8
-
-1. **[Download the Aerial .zip release](https://github.com/cDima/Aerial/releases)**
+1. **[Download the last release](https://github.com/titman/iScreenSaver/tree/master/Releases)**
 2. Right-click and select "Extract All..." to unzip the downloaded file. Just accept the default options from the Extraction wizard.
 3. You should be presented with a folder containing **AerialScreenSaverV3.scr**  and **AerialScreenSaverV3.exe**. Copy the **AerialScreenSaverV3.scr** file to your Windows installation folder (by default this should be c:\Windows on most PCs).
 4. Right click **AerialScreenSaverV3.scr** and choose Install, Windows will open Screen open Screen Saver Settings and set Aerial as the selected screensaver for you.
