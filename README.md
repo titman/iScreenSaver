@@ -37,7 +37,7 @@ Press `Screen Saver Options` and choose your favorite screen saver! or you can a
 * **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
 * **Customized You Own Screen Saver:** If you've got `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
-<p align="center"><img align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Setting.png" /></p>
+<p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
 ## Compatibility
 
