@@ -34,14 +34,14 @@ A magic screen saver, a lot of fun. You can also customized your own screen save
 
 ### Picture instructions - Some of the screenshots
 
+`[Square lightning]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview1.gif" /></p>
+`[Sheep]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview7.gif" /></p>
+`[Lonely moon]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview6.gif" /></p>
+`[Hearts]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview5.gif" /></p>
+`[Jellyfish]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview4.gif" /></p>
 `[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview8.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview7.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview6.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview5.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview4.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview3.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview2.gif" /></p>
-`[Yellow Square]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview1.gif" /></p>
+`[Virus]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview3.gif" /></p>
+`[Plankton]`<p align="left"><img width="320" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Preview2.gif" /></p>
 
 
 ### Features
