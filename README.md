@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/titman/iScreenSaver" target="_blank">
-<img align="center" width="320" alt="A magic screen saver, a lot of fun. You can also customize your own screen saver." src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Header.gif" />
+<img align="center" width="450" alt="A magic screen saver, a lot of fun. You can also customize your own screen saver." src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Header.gif" />
 </a>
 </p>
 
