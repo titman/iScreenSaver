@@ -48,6 +48,7 @@ Based on Mac OSX 10.8+
 
 Please try open up `System Preferences > Security & Privacy > Open Anyway`.
 > Some screen saver all black?
+
 Please wait a few seconds to load some necessary javascript file.
 
 ### Community
@@ -63,3 +64,4 @@ Please wait a few seconds to load some necessary javascript file.
 
 ### License
 
+If your legal right has been infringed, contact me please.
