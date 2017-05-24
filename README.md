@@ -16,6 +16,7 @@
 ### iScreenSaver - A Screen Saver for Mac OSX 10.8+
 
 A magic screen saver, a lot of fun. You can also customized your own screen saver.
+[[中文说明点击这里]](https://github.com/titman/iScreenSaver/blob/master/README(Chinese).md)
 
 <p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
