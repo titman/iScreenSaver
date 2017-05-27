@@ -80,6 +80,7 @@ iScreenSaver load the html file using the deep optimization WebView, high perfor
 
 ### Change log
 
+- May 27th, 2017 - 1.04: Local screen saver editor support.
 - May 23th, 2017 - 1.03: First release.
 
 
