@@ -355,7 +355,7 @@
             [LCScreenSaverDefaults deleteLocalDataWithIndex:row];
             [weakSelf.datasourceLocal removeObjectAtIndex:row];
 
-            [tableView reloadDataForRowIndexes:[NSIndexSet indexSetWithIndex:row] columnIndexes:[NSIndexSet indexSetWithIndex:0]];
+            [tableView reloadData];
         };
         
         cell.editAction = ^(){
