@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134B11D81EFBAECF00BDD17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11D71EFBAECF00BDD17E /* AppDelegate.m */; };
+		134B11DB1EFBAECF00BDD17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11DA1EFBAECF00BDD17E /* main.m */; };
+		134B11DE1EFBAECF00BDD17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11DD1EFBAECF00BDD17E /* ViewController.m */; };
+		134B11E01EFBAECF00BDD17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134B11DF1EFBAECF00BDD17E /* Assets.xcassets */; };
+		134B11E31EFBAECF00BDD17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134B11E11EFBAECF00BDD17E /* Main.storyboard */; };
+		134B11EC1EFBB06A00BDD17E /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11EB1EFBB06A00BDD17E /* DragView.m */; };
+		134B11F31EFBB7BE00BDD17E /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11F11EFBB7BE00BDD17E /* ResultViewController.m */; };
+		134B11F41EFBB7BE00BDD17E /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134B11F21EFBB7BE00BDD17E /* ResultViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134B11D31EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePenSourceCodeFileMergeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134B11D61EFBAECF00BDD17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		134B11D71EFBAECF00BDD17E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		134B11DA1EFBAECF00BDD17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134B11DC1EFBAECF00BDD17E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		134B11DD1EFBAECF00BDD17E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		134B11DF1EFBAECF00BDD17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		134B11E21EFBAECF00BDD17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		134B11E41EFBAECF00BDD17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134B11EA1EFBB06A00BDD17E /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		134B11EB1EFBB06A00BDD17E /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		134B11F01EFBB7BE00BDD17E /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		134B11F11EFBB7BE00BDD17E /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		134B11F21EFBB7BE00BDD17E /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134B11D01EFBAECF00BDD17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134B11CA1EFBAECF00BDD17E = {
+			isa = PBXGroup;
+			children = (
+				134B11D51EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool */,
+				134B11D41EFBAECF00BDD17E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134B11D41EFBAECF00BDD17E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134B11D31EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134B11D51EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool */ = {
+			isa = PBXGroup;
+			children = (
+				134B11D61EFBAECF00BDD17E /* AppDelegate.h */,
+				134B11D71EFBAECF00BDD17E /* AppDelegate.m */,
+				134B11EA1EFBB06A00BDD17E /* DragView.h */,
+				134B11EB1EFBB06A00BDD17E /* DragView.m */,
+				134B11DC1EFBAECF00BDD17E /* ViewController.h */,
+				134B11DD1EFBAECF00BDD17E /* ViewController.m */,
+				134B11F01EFBB7BE00BDD17E /* ResultViewController.h */,
+				134B11F11EFBB7BE00BDD17E /* ResultViewController.m */,
+				134B11F21EFBB7BE00BDD17E /* ResultViewController.xib */,
+				134B11DF1EFBAECF00BDD17E /* Assets.xcassets */,
+				134B11E11EFBAECF00BDD17E /* Main.storyboard */,
+				134B11E41EFBAECF00BDD17E /* Info.plist */,
+				134B11D91EFBAECF00BDD17E /* Supporting Files */,
+			);
+			path = CodePenSourceCodeFileMergeTool;
+			sourceTree = "<group>";
+		};
+		134B11D91EFBAECF00BDD17E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134B11DA1EFBAECF00BDD17E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134B11D21EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134B11E71EFBAECF00BDD17E /* Build configuration list for PBXNativeTarget "CodePenSourceCodeFileMergeTool" */;
+			buildPhases = (
+				134B11CF1EFBAECF00BDD17E /* Sources */,
+				134B11D01EFBAECF00BDD17E /* Frameworks */,
+				134B11D11EFBAECF00BDD17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodePenSourceCodeFileMergeTool;
+			productName = CodePenSourceCodeFileMergeTool;
+			productReference = 134B11D31EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134B11CB1EFBAECF00BDD17E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = titman;
+				TargetAttributes = {
+					134B11D21EFBAECF00BDD17E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 134B11CE1EFBAECF00BDD17E /* Build configuration list for PBXProject "CodePenSourceCodeFileMergeTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134B11CA1EFBAECF00BDD17E;
+			productRefGroup = 134B11D41EFBAECF00BDD17E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134B11D21EFBAECF00BDD17E /* CodePenSourceCodeFileMergeTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134B11D11EFBAECF00BDD17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134B11E01EFBAECF00BDD17E /* Assets.xcassets in Resources */,
+				134B11F41EFBB7BE00BDD17E /* ResultViewController.xib in Resources */,
+				134B11E31EFBAECF00BDD17E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134B11CF1EFBAECF00BDD17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134B11DE1EFBAECF00BDD17E /* ViewController.m in Sources */,
+				134B11DB1EFBAECF00BDD17E /* main.m in Sources */,
+				134B11EC1EFBB06A00BDD17E /* DragView.m in Sources */,
+				134B11F31EFBB7BE00BDD17E /* ResultViewController.m in Sources */,
+				134B11D81EFBAECF00BDD17E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134B11E11EFBAECF00BDD17E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134B11E21EFBAECF00BDD17E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134B11E51EFBAECF00BDD17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		134B11E61EFBAECF00BDD17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		134B11E81EFBAECF00BDD17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodePenSourceCodeFileMergeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = titman.CodePenSourceCodeFileMergeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		134B11E91EFBAECF00BDD17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodePenSourceCodeFileMergeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = titman.CodePenSourceCodeFileMergeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134B11CE1EFBAECF00BDD17E /* Build configuration list for PBXProject "CodePenSourceCodeFileMergeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134B11E51EFBAECF00BDD17E /* Debug */,
+				134B11E61EFBAECF00BDD17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134B11E71EFBAECF00BDD17E /* Build configuration list for PBXNativeTarget "CodePenSourceCodeFileMergeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134B11E81EFBAECF00BDD17E /* Debug */,
+				134B11E91EFBAECF00BDD17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134B11CB1EFBAECF00BDD17E /* Project object */;
+}

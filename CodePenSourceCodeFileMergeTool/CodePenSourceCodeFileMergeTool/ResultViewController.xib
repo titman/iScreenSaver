@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ResultViewController">
+            <connections>
+                <outlet property="textView" destination="qeZ-rd-60Z" id="jRh-af-Ed3"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="524" height="325"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmw-dO-XdP">
+                    <rect key="frame" x="0.0" y="0.0" width="524" height="325"/>
+                    <clipView key="contentView" id="0t1-wO-8dp">
+                        <rect key="frame" x="1" y="1" width="507" height="323"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView importsGraphics="NO" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="qeZ-rd-60Z">
+                                <rect key="frame" x="0.0" y="0.0" width="507" height="323"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="minSize" width="507" height="323"/>
+                                <size key="maxSize" width="507" height="10000000"/>
+                                <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="zMr-uJ-47m">
+                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="uOc-ie-TRf">
+                        <rect key="frame" x="508" y="1" width="15" height="323"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dmw-dO-XdP" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="3K6-vJ-NOi"/>
+                <constraint firstItem="dmw-dO-XdP" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="BjT-Yg-VKN"/>
+                <constraint firstAttribute="bottom" secondItem="dmw-dO-XdP" secondAttribute="bottom" id="MEp-lj-FVh"/>
+                <constraint firstAttribute="trailing" secondItem="dmw-dO-XdP" secondAttribute="trailing" id="pdl-an-bcY"/>
+            </constraints>
+            <point key="canvasLocation" x="143" y="179.5"/>
+        </customView>
+    </objects>
+</document>
