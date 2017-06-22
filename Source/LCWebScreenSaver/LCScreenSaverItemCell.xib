@@ -40,7 +40,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="113" height="113"/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" id="33n-2B-XUX"/>
                                         </imageView>
-                                        <webView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9XU-yw-6xu">
+                                        <webView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9XU-yw-6xu" customClass="LCScreenSaverWebView">
                                             <rect key="frame" x="0.0" y="0.0" width="113" height="113"/>
                                             <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
                                                 <nil key="identifier"/>

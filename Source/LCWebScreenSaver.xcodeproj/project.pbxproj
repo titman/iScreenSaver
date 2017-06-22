@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		133012AA1EFA2C1000B52133 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133012A91EFA2C1000B52133 /* IOKit.framework */; };
+		134B11C81EFB9F8900BDD17E /* LCScreenSaverWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 134B11C61EFB9F8900BDD17E /* LCScreenSaverWebView.h */; };
+		134B11C91EFB9F8900BDD17E /* LCScreenSaverWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B11C71EFB9F8900BDD17E /* LCScreenSaverWebView.m */; };
 		134F67451ED9561600510572 /* LCScreenSaverEidtSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134F67441ED9561600510572 /* LCScreenSaverEidtSheet.xib */; };
 		13655F981ECEE85800E83F3F /* KPCScaleToFillNSImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13655F931ECEE85800E83F3F /* KPCScaleToFillNSImageView.h */; };
 		13655F991ECEE85800E83F3F /* KPCScaleToFillNSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13655F941ECEE85800E83F3F /* KPCScaleToFillNSImageView.m */; };
@@ -97,6 +99,8 @@
 
 /* Begin PBXFileReference section */
 		133012A91EFA2C1000B52133 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		134B11C61EFB9F8900BDD17E /* LCScreenSaverWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCScreenSaverWebView.h; sourceTree = "<group>"; };
+		134B11C71EFB9F8900BDD17E /* LCScreenSaverWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCScreenSaverWebView.m; sourceTree = "<group>"; };
 		134F67441ED9561600510572 /* LCScreenSaverEidtSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCScreenSaverEidtSheet.xib; sourceTree = "<group>"; };
 		13655F931ECEE85800E83F3F /* KPCScaleToFillNSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPCScaleToFillNSImageView.h; sourceTree = "<group>"; };
 		13655F941ECEE85800E83F3F /* KPCScaleToFillNSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPCScaleToFillNSImageView.m; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				13713CBC1ECD980E0089AAC4 /* LCScreenSaverManager.m */,
 				13713CC31ECD998E0089AAC4 /* LCScreenSaverManagerSheet.xib */,
 				134F67441ED9561600510572 /* LCScreenSaverEidtSheet.xib */,
+				134B11C61EFB9F8900BDD17E /* LCScreenSaverWebView.h */,
+				134B11C71EFB9F8900BDD17E /* LCScreenSaverWebView.m */,
 				13713D521ECE930D0089AAC4 /* LCScreenSaverRequest.h */,
 				13713D531ECE930D0089AAC4 /* LCScreenSaverRequest.m */,
 				13713D651ECEA2040089AAC4 /* LCScreenSaverDefaults.h */,
@@ -397,6 +403,7 @@
 				13713D7A1ECEA4530089AAC4 /* NSObject+LCModelMapping.h in Headers */,
 				13713D2B1ECDA41C0089AAC4 /* NSData+ImageContentType.h in Headers */,
 				13655F981ECEE85800E83F3F /* KPCScaleToFillNSImageView.h in Headers */,
+				134B11C81EFB9F8900BDD17E /* LCScreenSaverWebView.h in Headers */,
 				13713D541ECE930D0089AAC4 /* LCScreenSaverRequest.h in Headers */,
 				13713D271ECDA41C0089AAC4 /* FLAnimatedImageView+WebCache.h in Headers */,
 				13713D391ECDA41C0089AAC4 /* SDWebImageDownloaderOperation.h in Headers */,
@@ -523,6 +530,7 @@
 				13713D121ECDA41C0089AAC4 /* AFNetworkReachabilityManager.m in Sources */,
 				13713D321ECDA41C0089AAC4 /* SDImageCacheConfig.m in Sources */,
 				13713D141ECDA41C0089AAC4 /* AFSecurityPolicy.m in Sources */,
+				134B11C91EFB9F8900BDD17E /* LCScreenSaverWebView.m in Sources */,
 				13713D0F1ECDA41C0089AAC4 /* AFHTTPSessionManager.m in Sources */,
 				13713D381ECDA41C0089AAC4 /* SDWebImageDownloader.m in Sources */,
 				13713D2A1ECDA41C0089AAC4 /* MKAnnotationView+WebCache.m in Sources */,

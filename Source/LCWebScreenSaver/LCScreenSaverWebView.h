@@ -30,34 +30,8 @@
 //  IN THE SOFTWARE.
 //
 
-#import <Cocoa/Cocoa.h>
-#import "LCScreenSaverModel.h"
 #import <WebKit/WebKit.h>
 
-@class LCScreenSaverWebView;
-
-typedef void(^LCScreenSaverItemCellDeleteAction)();
-typedef void(^LCScreenSaverItemCellEditAction)();
-
-@interface LCScreenSaverItemCell : NSTableCellView <WebEditingDelegate, WebUIDelegate>
-
-@property(nonatomic, strong) IBOutlet NSImageView * webImageView;
-@property(nonatomic, strong) IBOutlet NSTextField * titleLabel;
-@property(nonatomic, strong) IBOutlet NSTextField * fileSizeLabel;
-@property(nonatomic, strong) IBOutlet NSTextField * uploadTimeLabel;
-@property(nonatomic, strong) IBOutlet NSTextField * stateLabel;
-@property(nonatomic, strong) IBOutlet NSTextField * typeLabel;
-
-@property(nonatomic, strong) IBOutlet LCScreenSaverWebView * webView;
-
-@property(nonatomic, strong) IBOutlet NSButton * deleteButton;
-@property(nonatomic, strong) IBOutlet NSButton * editButton;
-
-@property(nonatomic, strong) LCScreenSaverModel * model;
-
-@property(nonatomic, copy) LCScreenSaverItemCellDeleteAction deleteAction;
-@property(nonatomic, copy) LCScreenSaverItemCellEditAction editAction;
-
--(void) flag:(BOOL)flag;
+@interface LCScreenSaverWebView : WebView
 
 @end

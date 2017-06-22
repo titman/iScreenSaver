@@ -34,6 +34,7 @@
 #import "UIImageView+WebCache.h"
 #import "LCScreenSaverRequest.h"
 #import "WebPreferences+LCWebOptimize.h"
+#import "LCScreenSaverWebView.h"
 
 @implementation LCScreenSaverItemCell
 
@@ -76,22 +77,6 @@
         
         self.webView.editingDelegate = self;
         self.webView.UIDelegate = self;
-        self.webView.mainFrame.frameView.allowsScrolling = NO;
-        self.webView.wantsLayer = YES;
-        self.webView.layer.cornerRadius = 4;
-        self.webView.layer.masksToBounds = YES;
-        
-        WebPreferences * prefs = [self.webView preferences];
-        
-        [prefs setLocalStorageEnabled:YES];
-        [prefs setWebGLEnabled:YES];
-        [prefs setRequestAnimationFrameEnabled:YES];
-        [prefs setAccelerated2dCanvasEnabled:YES];
-        [prefs setAcceleratedDrawingEnabled:YES];
-        [prefs setCanvasUsesAcceleratedDrawing:YES];
-        [prefs setAcceleratedCompositingEnabled:YES];
-        
-        [self.webView setPreferences:prefs];
 
         
         if (model.html.length && ![currentHTML isEqualToString:model.html]) {

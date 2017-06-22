@@ -35,6 +35,7 @@
 #import <IOKit/ps/IOPowerSources.h>
 #import "LCScreenSaverManager.h"
 #import "AFNetworking.h"
+#import "LCScreenSaverWebView.h"
 
 #import "WebPreferences+LCWebOptimize.h"
 
@@ -47,7 +48,7 @@ typedef NS_ENUM(NSInteger, LCBatteryStatus) {
 
 @interface LCWebScreenSaverView() <WebFrameLoadDelegate, WebUIDelegate, WebEditingDelegate>
 
-@property(nonatomic, strong) WebView * webView;
+@property(nonatomic, strong) LCScreenSaverWebView * webView;
 @property(nonatomic, strong) NSTextField * textField;
 
 @property(nonatomic, strong) NSString * debuggingString;
@@ -142,31 +143,10 @@ typedef NS_ENUM(NSInteger, LCBatteryStatus) {
         
         if (!self.webView) {
             
-            self.webView = [[WebView alloc] initWithFrame:self.bounds];
+            self.webView = [[LCScreenSaverWebView alloc] initWithFrame:self.bounds];
             self.webView.frameLoadDelegate = self;
             self.webView.UIDelegate        = self;
             self.webView.editingDelegate   = self;
-            
-            self.webView.mainFrame.frameView.allowsScrolling = NO;
-            
-            self.webView.drawsBackground       = NO;
-            self.webView.wantsLayer            = YES;
-            self.webView.layer.backgroundColor = [NSColor blackColor].CGColor;
-            
-            WebPreferences * prefs = [self.webView preferences];
-            
-            [prefs setLocalStorageEnabled:YES];
-            [prefs setWebGLEnabled:YES];
-            [prefs setRequestAnimationFrameEnabled:YES];
-            [prefs setAccelerated2dCanvasEnabled:YES];
-            [prefs setAcceleratedDrawingEnabled:YES];
-            [prefs setCanvasUsesAcceleratedDrawing:YES];
-            [prefs setAcceleratedCompositingEnabled:YES];
-            
-            [self.webView setPreferences:prefs];
-            
-            [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
-            
             [self addSubview:self.webView];
         }
         
