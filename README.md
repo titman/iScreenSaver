@@ -33,7 +33,7 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 
 * iScreenSaver: sourcecode files of [ CodePen ] merge tool instruction
 
-<a align="center" href="https://www.youtube.com/watch?v=A0KS7AWdkwg">Youtube<img width="420" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/MergeToolVideo.jpeg" /></a>
+<a align="center" href="https://www.youtube.com/watch?v=A0KS7AWdkwg"><img width="420" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/MergeToolVideo.jpeg" /></a>
 
 ### Picture instructions - Some of the screenshots
 
