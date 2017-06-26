@@ -33,6 +33,13 @@
 #import "LCScreenSaverDefaults.h"
 #import "YYModel.h"
 
+#define __DEFAULTS_NAME        @"LCScreenSaverDefaults"
+#define __NETWORKING_CACHE_KEY @"LCScreenSaverDefaults.networking.cache"
+#define __LOCAL_CACHE_KEY      @"LCScreenSaverDefaults.local.cache"
+#define __INUSE_FLAG_KEY       @"LCScreenSaverDefaults.inuse.flag"
+
+#define __NETWORKING_SOURCE_CACHE_KEY(name) [NSString stringWithFormat:@"LCScreenSaverDefaults.networking.cache.%@", name]
+
 @implementation LCInUseScreenSaverModel
 
 @end
@@ -45,7 +52,7 @@
     
     if (!defaults) {
         
-        defaults = [LCScreenSaverDefaults defaultsForModuleWithName:@"LCScreenSaverDefaults"];
+        defaults = [LCScreenSaverDefaults defaultsForModuleWithName:__DEFAULTS_NAME];
     }
     
     return defaults;
@@ -53,7 +60,7 @@
 
 +(NSMutableArray<LCScreenSaverModel *> *) loadNetworkingDatasourceCache
 {
-    NSArray * array = [self.shareInstance objectForKey:@"LCScreenSaverDefaults.networking.cache"];
+    NSArray * array = [self.shareInstance objectForKey:__NETWORKING_CACHE_KEY];
     
     NSMutableArray * result = [NSMutableArray array];
     
@@ -71,13 +78,13 @@
 
 +(void) saveNetworkingDatasourceCache:(NSArray<NSDictionary *> *)cache
 {
-    [self.shareInstance setObject:cache forKey:@"LCScreenSaverDefaults.networking.cache"];
+    [self.shareInstance setObject:cache forKey:__NETWORKING_CACHE_KEY];
     [self.shareInstance synchronize];
 }
 
 +(NSMutableArray<LCScreenSaverModel *> *) loadLocalDatasourceCache
 {
-    NSArray * array = [self.shareInstance objectForKey:@"LCScreenSaverDefaults.local.cache"];
+    NSArray * array = [self.shareInstance objectForKey:__LOCAL_CACHE_KEY];
     
     NSMutableArray * result = [NSMutableArray array];
     
@@ -95,7 +102,7 @@
 
 +(void) saveLocalDatasourceCache:(NSArray<NSDictionary *> *)cache
 {
-    [self.shareInstance setObject:cache forKey:@"LCScreenSaverDefaults.local.cache"];
+    [self.shareInstance setObject:cache forKey:__LOCAL_CACHE_KEY];
     [self.shareInstance synchronize];
 }
 
@@ -166,38 +173,38 @@
     
     for (NSString * key in allKeys) {
         
-        if ([key hasPrefix:@"LCScreenSaverDefaults.networking.cache"] && key.length > @"LCScreenSaverDefaults.networking.cache".length) {
+        if ([key hasPrefix:__NETWORKING_CACHE_KEY] && key.length > __NETWORKING_CACHE_KEY.length) {
             
             [self.shareInstance removeObjectForKey:key];
         }
     }
     
-    [self.shareInstance removeObjectForKey:@"LCScreenSaverDefaults.flag.cache"];
+    [self.shareInstance removeObjectForKey:__INUSE_FLAG_KEY];
     [self.shareInstance synchronize];
 
 }
 
 +(NSString *) loadHTMLFromCache:(NSString *)name
 {
-    return [self.shareInstance objectForKey:[NSString stringWithFormat:@"LCScreenSaverDefaults.networking.cache.%@", name]];
+    return [self.shareInstance objectForKey:__NETWORKING_SOURCE_CACHE_KEY(name)];
 }
 
 
 +(void) saveHTMLtoCache:(NSString *)html name:(NSString *)name
 {
-    [self.shareInstance setObject:html forKey:[NSString stringWithFormat:@"LCScreenSaverDefaults.networking.cache.%@", name]];
+    [self.shareInstance setObject:html forKey:__NETWORKING_SOURCE_CACHE_KEY(name)];
     [self.shareInstance synchronize];
 }
 
 +(void) flagInUseScreenSaverWithIndex:(NSInteger)index type:(LCScreenSaverModelType)type
 {
-    [self.shareInstance setObject:[NSString stringWithFormat:@"%@.%@", @(type), @(index)] forKey:@"LCScreenSaverDefaults.flag.cache"];
+    [self.shareInstance setObject:[NSString stringWithFormat:@"%@.%@", @(type), @(index)] forKey:__INUSE_FLAG_KEY];
     [self.shareInstance synchronize];
 }
 
 +(LCInUseScreenSaverModel *) inUseScreenSaver
 {
-    NSString * flag = [self.shareInstance objectForKey:@"LCScreenSaverDefaults.flag.cache"];
+    NSString * flag = [self.shareInstance objectForKey:__INUSE_FLAG_KEY];
     
     
     if (flag) {
