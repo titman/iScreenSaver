@@ -31,9 +31,9 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 
 ### Video instructions
 
-> iScreenSaver: sourcecode files of [ CodePen ] merge tool instruction
+* iScreenSaver: sourcecode files of [ CodePen ] merge tool instruction
 
-<p align="left"><img width="420" align="center" alt="Preview" href="https://www.youtube.com/watch?v=A0KS7AWdkwg" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/MergeToolVideo.jpeg" /></p>
+<a align="center" href="https://www.youtube.com/watch?v=A0KS7AWdkwg">Youtube<img width="420" align="center" alt="Preview" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/MergeToolVideo.jpeg" /></a>
 
 ### Picture instructions - Some of the screenshots
 
