@@ -31,7 +31,8 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 
 ### Video instructions
 
-* [YouKu](http://www.youku.com/)
+* iScreenSaver: sourcecode files of [ CodePen ] merge tool instruction
+[![IMAGE ALT TEXT](https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/MergeToolVideoPreview.png)](http://www.youtube.com/watch?v=A0KS7AWdkwg)
 
 ### Picture instructions - Some of the screenshots
 
