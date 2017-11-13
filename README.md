@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/titman/iScreenSaver" target="_blank">
-<img align="center" width="450" alt="A magic screen saver, a lot of fun. You can also customize your own screen saver." src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Header.gif" />
+<img align="center" width="450" alt="A magic screensaver, a lot of fun. You can also customize your own screensaver." src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Header.gif" />
 </a>
 </p>
 
@@ -15,10 +15,10 @@
 
 ### iScreenSaver - A Screensaver for Mac OSX 10.8+
 
-A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can also customized your own screensaver.
+A magic screensaver, a lot of fun. Built-in More than 30 screensaver. You can also customized your own screensaver.
 [[中文说明点击这里]](https://github.com/titman/iScreenSaver/blob/master/README(Chinese).md)
 
-<p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
+<p align="center"><img width="320" align="center" alt="Screensaver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
 
 
 ### Installation on Mac OSX
@@ -27,7 +27,7 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 2. Unzip the downloaded file.
 3. Open the `iScreenSaver.saver` and install it.
 4. Open up `System Preferences > Desktop and Screensaver > Screensaver`
-5. Select "iScreenSaver" (It'll be at the bottom of the Screensavers list.) and press `Screensaver Options` and choose your favorite screen saver! Or you can also customize your own screen saver.
+5. Select "iScreenSaver" (It'll be at the bottom of the Screensavers list.) and press `Screensaver Options` and choose your favorite screensaver! Or you can also customize your own screensaver.
 
 ### Video instructions
 
