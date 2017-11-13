@@ -13,9 +13,9 @@
 </a>
 </p>
 
-### iScreenSaver - A Screen Saver for Mac OSX 10.8+
+### iScreenSaver - A Screensaver for Mac OSX 10.8+
 
-A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can also customized your own screen saver.
+A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can also customized your own screensaver.
 [[中文说明点击这里]](https://github.com/titman/iScreenSaver/blob/master/README(Chinese).md)
 
 <p align="center"><img width="320" align="center" alt="Screen saver settings" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/Settings.png" /></p>
@@ -26,8 +26,8 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 1. **[Download the Latest release (iScreenSaver.x.xx.saver.zip)](https://github.com/titman/iScreenSaver/releases/)**
 2. Unzip the downloaded file.
 3. Open the `iScreenSaver.saver` and install it.
-4. Open up `System Preferences > Desktop and Screen Saver > Screen Saver`
-5. Select "iScreenSaver" (It'll be at the bottom of the Screen Savers list.) and press `Screen Saver Options` and choose your favorite screen saver! Or you can also customize your own screen saver.
+4. Open up `System Preferences > Desktop and Screensaver > Screensaver`
+5. Select "iScreenSaver" (It'll be at the bottom of the Screensavers list.) and press `Screensaver Options` and choose your favorite screen saver! Or you can also customize your own screen saver.
 
 ### Video instructions
 
@@ -49,8 +49,8 @@ A magic screen saver, a lot of fun. Built-in More than 30  screen saver. You can
 
 ### Features
 
-* **Auto Load Latest Screen Saver:** The author will add new screen saver every day.
-* **Customized You Own Screen Saver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
+* **Auto Load Latest Screensaver:** The author will add new screen saver every day.
+* **Customized You Own Screensaver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
 
 <p align="center"><img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver2.gif" /> <img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver1.gif" /></p>
 
