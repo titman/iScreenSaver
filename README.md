@@ -49,8 +49,8 @@ A magic screensaver, a lot of fun. Built-in More than 30 screensaver. You can al
 
 ### Features
 
-* **Auto Load Latest Screensaver:** The author will add new screen saver every day.
-* **Customized You Own Screensaver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screen saver.
+* **Auto Load Latest Screensaver:** The author will update as many screensavers as possible.
+* **Customized You Own Screensaver:** If you've got some amazing `HTML / URL / JAVASCRIPT`, you can use it as a screensaver.
 
 <p align="center"><img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver2.gif" /> <img width="300" align="center" alt="Costom saver" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/CustomSaver1.gif" /></p>
 
@@ -64,7 +64,7 @@ Based on Mac OSX 10.8+
 > Can't insalling iScreenSaver? <img width="20" align="center" alt="Error" src="https://raw.githubusercontent.com/titman/Pictures-of-the-warehouse/master/iScreenSaver/InstallError.png" />
 
 Please try open up `System Preferences > Security & Privacy > Open Anyway`.
-> Some screen saver all black?
+> Some screensaver all black?
 
 Please wait a few seconds to load some necessary javascript file.
 > May I found some other amazing html file？
@@ -82,7 +82,7 @@ iScreenSaver load the html file using the deep optimization WebView, high perfor
 
 ### Change log
 
-- May 27th, 2017 - 1.04: Local screen saver editor support.
+- May 27th, 2017 - 1.04: Local screensaver editor support.
 - May 23th, 2017 - 1.03: First release.
 
 
