@@ -41,7 +41,7 @@
     [self registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
 }
 
-- (void)draggingEnded:(nullable id <NSDraggingInfo>)sender
+- (void)draggingEnded:(id <NSDraggingInfo>)sender
 {
     NSPasteboard * pb = [sender draggingPasteboard];
     
@@ -85,38 +85,39 @@
     html = [html stringByReplacingOccurrencesOfString:@"<link rel=\"stylesheet\" href=\"css/style.css\">" withString:@""];
     html = [html stringByReplacingOccurrencesOfString:@"<head>" withString:[NSString stringWithFormat:@"<style>%@</style><head>", css]];
     html = [html stringByReplacingOccurrencesOfString:@"<script src=\"js/index.js\"></script>" withString:[NSString stringWithFormat:@"<script>%@</script>", js]];
-    
+    // or?
+    html = [html stringByReplacingOccurrencesOfString:@"<script  src=\"js/index.js\"></script>" withString:[NSString stringWithFormat:@"<script>%@</script>", js]];
     
     ResultViewController * result = [[ResultViewController alloc] initWithString:html];
     
     [self.parentViewController presentViewControllerAsModalWindow:result];
     
     
-        //        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)"
-        //                                                                               options:NSRegularExpressionCaseInsensitive
-        //                                                                            error:nil];
-        //
-        //        __block NSMutableString * newHtml = [html mutableCopy];
-        //
-        //        [regex enumerateMatchesInString:html
-        //                                options:0
-        //                                  range:NSMakeRange(0, [html length])
-        //                             usingBlock:^(NSTextCheckingResult * result, NSMatchingFlags flags, BOOL *stop) {
-        //
-        //                                 NSString * url = [html substringWithRange:result.range];
-        //
-        //                                 if ([url hasSuffix:@""]) {
-        //                                     <#statements#>
-        //                                 }
-        //
-        //                                 newHtml = [[newHtml stringByReplacingOccurrencesOfString: withString:@""] mutableCopy];
-        //                             }];
-        
-        
-//        BOOL finish = [html writeToFile:[NSString stringWithFormat:@"%@%@.html", output, [[value lowercaseString] stringByReplacingOccurrencesOfString:@"-" withString:@""]] atomically:YES encoding:NSUTF8StringEncoding error:nil];
-//
-//        NSLog(@"%@ %@", value, @(finish));
-
+    //        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)"
+    //                                                                               options:NSRegularExpressionCaseInsensitive
+    //                                                                            error:nil];
+    //
+    //        __block NSMutableString * newHtml = [html mutableCopy];
+    //
+    //        [regex enumerateMatchesInString:html
+    //                                options:0
+    //                                  range:NSMakeRange(0, [html length])
+    //                             usingBlock:^(NSTextCheckingResult * result, NSMatchingFlags flags, BOOL *stop) {
+    //
+    //                                 NSString * url = [html substringWithRange:result.range];
+    //
+    //                                 if ([url hasSuffix:@""]) {
+    //                                     <#statements#>
+    //                                 }
+    //
+    //                                 newHtml = [[newHtml stringByReplacingOccurrencesOfString: withString:@""] mutableCopy];
+    //                             }];
+    
+    
+    //        BOOL finish = [html writeToFile:[NSString stringWithFormat:@"%@%@.html", output, [[value lowercaseString] stringByReplacingOccurrencesOfString:@"-" withString:@""]] atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    //
+    //        NSLog(@"%@ %@", value, @(finish));
+    
 }
 
 - (NSDragOperation)draggingEntered:(id <NSDraggingInfo>)sender

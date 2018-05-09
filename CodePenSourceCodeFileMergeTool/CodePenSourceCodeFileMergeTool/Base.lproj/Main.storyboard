@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -669,6 +669,9 @@
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="JBV-gr-TjC"/>
+                        </connections>
                     </window>
                     <connections>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
@@ -686,7 +689,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="194"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-O5-Bgx" customClass="DragView">
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-O5-Bgx" customClass="DragView">
                                 <rect key="frame" x="-2" y="22" width="484" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="HPd-HH-hj9"/>
@@ -719,6 +722,7 @@
                             <constraint firstItem="dNn-qn-kh1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="KoA-cz-JNw"/>
                             <constraint firstItem="rvd-O5-Bgx" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="QsE-RX-Idd"/>
                             <constraint firstAttribute="bottom" secondItem="dNn-qn-kh1" secondAttribute="bottom" constant="10" id="boB-Qw-ooz"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dNn-qn-kh1" secondAttribute="trailing" constant="20" symbolic="YES" id="eY3-1O-IG4"/>
                             <constraint firstItem="rvd-O5-Bgx" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="f0A-D9-N3y"/>
                             <constraint firstAttribute="trailing" secondItem="rvd-O5-Bgx" secondAttribute="trailing" id="hrR-Te-ZJf"/>
                             <constraint firstItem="rvd-O5-Bgx" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="xhC-Ww-bVf"/>
