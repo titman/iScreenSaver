@@ -36,8 +36,8 @@
 
 @class LCScreenSaverWebView;
 
-typedef void(^LCScreenSaverItemCellDeleteAction)();
-typedef void(^LCScreenSaverItemCellEditAction)();
+typedef void(^LCScreenSaverItemCellDeleteAction)(NSInteger row);
+typedef void(^LCScreenSaverItemCellEditAction)(NSInteger row);
 
 @interface LCScreenSaverItemCell : NSTableCellView <WebEditingDelegate, WebUIDelegate>
 
@@ -53,6 +53,7 @@ typedef void(^LCScreenSaverItemCellEditAction)();
 @property(nonatomic, strong) IBOutlet NSButton * deleteButton;
 @property(nonatomic, strong) IBOutlet NSButton * editButton;
 
+@property(nonatomic, assign) NSInteger row;
 @property(nonatomic, strong) LCScreenSaverModel * model;
 
 @property(nonatomic, copy) LCScreenSaverItemCellDeleteAction deleteAction;

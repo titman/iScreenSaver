@@ -330,6 +330,7 @@
     
     LCScreenSaverModel * model = tableView == self.leftTableView ? self.datasourceNetwoking[row] : self.datasourceLocal[row];
     
+    cell.row = row;
     cell.model = model;
     
     if (self.inUse && model.type == self.inUse.type && row == self.inUse.index) {
@@ -345,28 +346,27 @@
         
         __weak LCScreenSaverManager * weakSelf = self;
         
-        cell.deleteAction = ^(){
+        cell.deleteAction = ^(NSInteger cellRow){
             
             if (weakSelf.inUse.type == LCScreenSaverModelTypeLocal) {
                 
                 weakSelf.inUse = nil;
             }
             
-            [LCScreenSaverDefaults deleteLocalDataWithIndex:row];
-            [weakSelf.datasourceLocal removeObjectAtIndex:row];
+            [LCScreenSaverDefaults deleteLocalDataWithIndex:cellRow];
+            [weakSelf.datasourceLocal removeObjectAtIndex:cellRow];
 
             [tableView reloadData];
         };
         
-        cell.editAction = ^(){
+        cell.editAction = ^(NSInteger cellRow){
             
             [[NSBundle bundleForClass:[weakSelf class]] loadNibNamed:@"LCScreenSaverEidtSheet" owner:weakSelf topLevelObjects:NULL];
             
-            weakSelf.editingIndex = row;
+            weakSelf.editingIndex = cellRow;
             weakSelf.editHTMLNameTextField.stringValue = model.name;
             weakSelf.editHTMLTextField.string = model.html;
         };
-        
     }
     
     return cell;

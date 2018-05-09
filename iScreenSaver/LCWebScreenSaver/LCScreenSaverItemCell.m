@@ -109,14 +109,14 @@
 -(IBAction) deleteAction:(id)sender
 {
     if (self.deleteAction) {
-        self.deleteAction();
+        self.deleteAction(self.row);
     }
 }
 
 -(IBAction) editAction:(id)sender
 {
     if (self.editAction) {
-        self.editAction();
+        self.editAction(self.row);
     }
 }
 

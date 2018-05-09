@@ -455,6 +455,7 @@
 				TargetAttributes = {
 					13713C951ECD81910089AAC4 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9WU5YMJS6C;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -635,7 +636,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9WU5YMJS6C;
 				INFOPLIST_FILE = LCWebScreenSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = titman.screensaver.web;
