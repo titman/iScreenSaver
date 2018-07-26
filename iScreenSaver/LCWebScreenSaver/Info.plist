@@ -15,9 +15,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.04</string>
+	<string>1.05</string>
 	<key>CFBundleVersion</key>
-	<string>1.04.1</string>
+	<string>1.05.1</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017年 titman. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
