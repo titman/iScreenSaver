@@ -58,7 +58,7 @@
 
 -(IBAction) gotoCodePen:(id)sender
 {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://codepen.io/pens/"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://codepen.io/"]];
 }
 
 

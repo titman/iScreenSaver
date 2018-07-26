@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -667,7 +667,7 @@
                     <window key="window" title="Pen简易合成工具" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="330"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="JBV-gr-TjC"/>
@@ -686,30 +686,31 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="254"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-O5-Bgx" customClass="DragView">
-                                <rect key="frame" x="-2" y="22" width="484" height="150"/>
+                                <rect key="frame" x="-2" y="52" width="484" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="HPd-HH-hj9"/>
                                 </constraints>
                                 <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="center" id="S0E-FX-ifb">
                                     <font key="font" size="13" name=".PingFangSC-Regular"/>
-                                    <string key="title">该工具用于将Pen的JS、CSS以及HTML合并成一个HTML文件
+                                    <string key="title">该工具用于寻找并制作一个属于自己的屏保，主要用于将CodePen的JS、CSS以及HTML合并成一个HTML文件
 
-1. 在CodePen的Pen Details页面依次点击 [Export &gt; Export.zip]
-2. 下载完成后解压，将解压后的文件夹 [拖拽] 至此
-3. [全选并复制] 处理后的HTML代码至iScreenSaver中即可充当屏保
+1. 点击左下角按钮打开CodePen网站并登录，寻找自己心仪的Pen
+2. 在CodePen的Pen Details页面依次点击 [Export &gt; Export.zip]
+3. 下载完成后解压，将解压后的文件夹 [拖拽] 至此
+4. [全选并复制] 处理后的HTML代码粘贴至iScreenSaver中即可充当屏保
 
-暂不支持直接拖拽ZIP，不支持多个Pen同时处理</string>
+暂不支持直接拖拽ZIP，也不支持多个Pen同时处理</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dNn-qn-kh1">
-                                <rect key="frame" x="9" y="9" width="132" height="16"/>
-                                <buttonCell key="cell" type="push" title="https://codepen.io/pens/" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YAq-uN-gEO">
+                                <rect key="frame" x="9" y="9" width="107" height="16"/>
+                                <buttonCell key="cell" type="push" title="https://codepen.io/" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YAq-uN-gEO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" size="10" name="HelveticaNeue-Light"/>
                                 </buttonCell>
@@ -734,7 +735,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="818"/>
+            <point key="canvasLocation" x="75" y="848"/>
         </scene>
     </scenes>
 </document>
